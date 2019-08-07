@@ -8,6 +8,9 @@ import vimeo from './img/vimeo.png';
 import newsimg1 from './img/news-img-1.png';
 import newsimg2 from './img/news-img-2.png';
 
+const date = <p>May 8, 2018</p>;
+const NewsTitle =  <h3>Design is not Just Look Woow, Its means...</h3>;
+
 var App = () => {
     return (
         <body>
@@ -71,10 +74,10 @@ var App = () => {
                             </ul>
                         </div>
                         <div class="news-title">
-                            <h3>Design is not Just Look Woow, Its means...</h3>
+                            {NewsTitle}
                         </div>
                         <div class="btn-read-more"><a href="#">Read more</a></div>
-                        <div class="date">May 8, 2018</div>
+                        <div class="date">{date}</div>
                     </div>
                     <div class="news-id">
                         <div class="news-img">
@@ -88,10 +91,10 @@ var App = () => {
                             </ul>
                         </div>
                         <div class="news-title">
-                            <h3>Design is not Just Look Woow, Its means...</h3>
+                            {NewsTitle}
                         </div>
                         <div class="btn-read-more"><a href="#">Read more</a></div>
-                        <div class="date">May 8, 2018</div>
+                        <div class="date">{date}</div>
                     </div>
                     <div class="news-id">
                         <div class="news-img">
@@ -105,10 +108,10 @@ var App = () => {
                             </ul>
                         </div>
                         <div class="news-title">
-                            <h3>Основы js, переменные, операторы, условия...</h3>
+                            {NewsTitle}
                         </div>
                         <div class="btn-read-more"><a href="#">Read more</a></div>
-                        <div class="date">May 8, 2018</div>
+                        <div class="date">{date}</div>
                     </div>
                 </div>
             </div>
